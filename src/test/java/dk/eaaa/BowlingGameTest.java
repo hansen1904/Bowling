@@ -21,12 +21,12 @@ public class BowlingGameTest {
 
 	@Test
 	public void testAllOnePinGame() throws Exception {
-		rollMany(20, 1);
+		rollMany(22, 1);
 		assertEquals(20, game.getScore());
 	}
 	
 	@Test
-	public void testCanRollSpare2() throws Exception {
+	public void testCanRollSpare() throws Exception {
 		game.roll(5);
 		game.roll(5);
 		game.roll(3);
