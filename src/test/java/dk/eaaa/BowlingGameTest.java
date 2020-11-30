@@ -15,13 +15,13 @@ public class BowlingGameTest {
 	
 	@Test
 	public void testGutterGame() throws Exception {
-		rollMany(20, 0);
+		rollMany(200, 0);
 		assertEquals(0, game.getScore());
 	}
 
 	@Test
 	public void testAllOnePinGame() throws Exception {
-		rollMany(23, 1);
+		rollMany(20, 1);
 		assertEquals(20, game.getScore());
 	}
 	
