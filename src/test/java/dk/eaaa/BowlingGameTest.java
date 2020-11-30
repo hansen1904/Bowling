@@ -26,7 +26,7 @@ public class BowlingGameTest {
 	}
 	
 	@Test
-	public void testCanRollSpare() throws Exception {
+	public void testCanRollSpare2() throws Exception {
 		game.roll(5);
 		game.roll(5);
 		game.roll(3);
